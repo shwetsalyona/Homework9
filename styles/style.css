@@ -1,4 +1,3 @@
-/*font-family: 'Poppins', sans-serif;*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -37,7 +36,7 @@ a {
 .nav-item:hover {
     color: #FF9900;
 }
-.btn {
+.buttons {
     gap: 32px;
 }
 .btn-nav {
@@ -64,6 +63,7 @@ a {
     flex-direction: column;
     justify-content: center;
     gap: 30px;
+    width: 40%;
 }
 .start-text-title {
     font-weight: 700;
@@ -74,20 +74,19 @@ a {
     font-size: 1.125rem;
     line-height: 1.75rem;
 }
+.start-img {
+    width: 60%;
+}
 .btn-start {
     width: 182px;
-    /*color: #FFFFFF;*/
-    /*background-color: #FF9900;*/
-    /*font-family: 'Poppins', sans-serif;*/
-    /*font-weight: 700;*/
-    /*border: 1px solid #FF9900;*/
     padding: 13px 43px;
-    /*border-radius: 4px;*/
-    /*font-size: 1rem;*/
 }
 .title {
     font-size: 2.25rem;
     font-weight: 700;
+}
+.tools {
+    margin-bottom: 180px;
 }
 .tools-cards {
     justify-content: space-between;
@@ -123,4 +122,80 @@ a {
     padding: 13px 40px;
     margin: 70px auto 0 auto;
     display: block;
+}
+.designers, .marketers {
+    margin-bottom: 100px;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 26px;
+    gap: 115px;
+}
+.designers-text, .marketers-text {
+    width: 40%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.designers-title, .marketers-title {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.designers-title-main, .marketers-title-main {
+    margin: 10px 0 20px 0;
+}
+.designers-img, .marketers-img {
+    width: 60%;
+}
+.pms {
+    line-height: 26px;
+    font-size: 1rem;
+    gap: 125px;
+    margin-bottom: 100px;
+}
+.pms-title-main {
+    margin: 10px 0 20px 0;
+}
+.pms-text {
+    width: 35%;
+}
+.pms-img {
+    width: 60%;
+}
+.pms-text-content {
+    align-items: center;
+    gap: 9px;
+}
+.pms-content-wrapper {
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 30px;
+}
+.footer {
+    justify-content: space-between;
+}
+.btn-footer {
+    width: 180px;
+    height: 50px;
+}
+.footer-img {
+    align-self: flex-start;
+}
+.form {
+    flex-direction: column;
+    gap: 25px;
+}
+.footer-column > div:not(last-child) {
+    margin-bottom: 20px;
+}
+.footer-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.form-tel {
+    color: #BCD0E5;
+    font-size: 1rem;
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid #BCD0E5;
 }
